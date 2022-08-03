@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/home1.dart';
-import 'package:flutter_app/home2.dart';
+import 'package:flutter_app/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue, 
       ),
-      home: home1(),
+      home: home(),
     );
   }
 }

@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class home1 extends StatefulWidget {
-  const home1({Key? key}) : super(key: key);
+class home extends StatefulWidget {
+  const home({Key? key}) : super(key: key);
 
   @override
-  State<home1> createState() => _home1State();
+  State<home> createState() => _homeState();
 }
 
-class _home1State extends State<home1> {
+class _homeState extends State<home> {
   List<DropdownMenuItem<String>> menuItems = [
     DropdownMenuItem(child: Text("PSYCHOLOGICAL TESTS"),value: "1"),
     DropdownMenuItem(child: Text("PHYSICAL DEVELOPMENT"),value: "2"),
